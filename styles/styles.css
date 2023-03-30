@@ -1,0 +1,171 @@
+@font-face {
+    font-family:Ostia Antica;
+    src: url(../assets/fonts/ostia_antica.ttf);
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk';
+}
+/*Navbar*/
+.menu{
+    margin: 0rem 1rem 0rem 1rem;
+    padding:1rem  4rem 1rem  4rem;
+}
+.container-fluid{
+    padding: 0rem;
+}
+.nav-item{
+    padding-left:2rem ;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #222222;
+    font-size: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: 'Hanken Grotesk';
+}
+/*Header*/
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10.75rem 11rem 10.75rem 4rem;
+    gap: 5rem;
+    border-radius: 4.6875rem;
+    margin: 0rem 1rem 0rem 1rem;
+    background-image: url(../assets/images/header_img.png);
+    background-size: cover;
+}
+
+.header_tittle{
+    font-weight: 400;
+    font-size: 3.5625rem;
+    line-height: 4rem;
+}
+
+/*About me*/
+
+.aboutme_container{
+    padding: 7rem 5rem 7rem  5rem;
+}
+
+.aboutme_tittle{
+    font-weight: 400;
+    font-size: 2.8125rem;
+    line-height: 3.25rem;
+}
+.aboutme_text{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.0313rem;
+}
+
+/*Footer*/
+
+.footer{
+    padding: 7rem 4rem;
+    gap: 1.25rem;
+    height: 21.0625rem;
+    padding: 7rem 5rem 7rem  5rem;
+}
+.footer_tittle{
+    font-family: 'Ostia Antica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6875rem;
+    line-height: 2.125rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.footer_links a{
+    font-family: 'Ostia Antica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*Media queries*/
+
+@media (max-width: 1198px)  {
+    *{font-size: 16px;}
+    .header{
+        height: 75vh;
+        padding: 10.75rem 3rem 10.75rem 3rem; 
+    }
+    .aboutme_container{
+        padding: 7rem 4rem 7rem  4rem;
+    }
+    .aboutme_tittle{
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 988px)  {
+    *{font-size: 15px;}
+    /*navbar*/
+    .menu{
+        padding:1.5rem  4rem 1.5rem  4rem;
+        }
+        .container-fluid{
+            padding: 0rem;
+        }
+        .nav-item{
+            padding:2rem 0rem 0rem 0rem;
+            text-align: center;
+        }
+        /*Header*/
+        .header_tittle{
+            font-size: 3.2rem;
+            line-height: 4rem;
+        }
+    
+}
+@media (max-width: 866px)  {
+    *{font-size: 14px;}
+}
+@media (max-width: 784px)  {
+    *{font-size: 13px;}
+}
+@media (max-width: 688px)  {
+    /*Header*/
+    .header_tittle{
+        font-size: 2.8rem;
+        line-height: 4rem;
+    }
+
+}
+
+
+@media (max-width: 480px)  {
+    *{font-size: 12px;}
+    /*Header*/
+
+    .header{
+        height: 65vh;
+        padding: 10.75rem 3rem 10.75rem 3rem; 
+        margin: 0rem 1.3rem 0rem 1.3rem;
+    }
+    
+    .header_tittle{
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+    /*About me*/
+
+    .aboutme_container{
+        padding: 7rem 4rem 7rem  4rem;
+    }
+
+}
+
+@media (max-width: 480px)  {
+    *{font-size: 11px;}
+}
